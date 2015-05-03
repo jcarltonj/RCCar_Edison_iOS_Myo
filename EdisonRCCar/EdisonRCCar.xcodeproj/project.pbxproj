@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8E6D761AE4887000CA6AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E6D751AE4887000CA6AA1 /* AppDelegate.swift */; };
+		FC8E6D781AE4887000CA6AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E6D771AE4887000CA6AA1 /* ViewController.swift */; };
+		FC8E6D7B1AE4887000CA6AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8E6D791AE4887000CA6AA1 /* Main.storyboard */; };
+		FC8E6D7D1AE4887000CA6AA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8E6D7C1AE4887000CA6AA1 /* Images.xcassets */; };
+		FC8E6D801AE4887000CA6AA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8E6D7E1AE4887000CA6AA1 /* LaunchScreen.xib */; };
+		FC8E6D8C1AE4887000CA6AA1 /* EdisonRCCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E6D8B1AE4887000CA6AA1 /* EdisonRCCarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8E6D861AE4887000CA6AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8E6D681AE4887000CA6AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8E6D6F1AE4887000CA6AA1;
+			remoteInfo = EdisonRCCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8E6D701AE4887000CA6AA1 /* EdisonRCCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdisonRCCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8E6D741AE4887000CA6AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8E6D751AE4887000CA6AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8E6D771AE4887000CA6AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC8E6D7A1AE4887000CA6AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8E6D7C1AE4887000CA6AA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC8E6D7F1AE4887000CA6AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC8E6D851AE4887000CA6AA1 /* EdisonRCCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdisonRCCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8E6D8A1AE4887000CA6AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8E6D8B1AE4887000CA6AA1 /* EdisonRCCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdisonRCCarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8E6D6D1AE4887000CA6AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8E6D821AE4887000CA6AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8E6D671AE4887000CA6AA1 = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D721AE4887000CA6AA1 /* EdisonRCCar */,
+				FC8E6D881AE4887000CA6AA1 /* EdisonRCCarTests */,
+				FC8E6D711AE4887000CA6AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8E6D711AE4887000CA6AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D701AE4887000CA6AA1 /* EdisonRCCar.app */,
+				FC8E6D851AE4887000CA6AA1 /* EdisonRCCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8E6D721AE4887000CA6AA1 /* EdisonRCCar */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D751AE4887000CA6AA1 /* AppDelegate.swift */,
+				FC8E6D771AE4887000CA6AA1 /* ViewController.swift */,
+				FC8E6D791AE4887000CA6AA1 /* Main.storyboard */,
+				FC8E6D7C1AE4887000CA6AA1 /* Images.xcassets */,
+				FC8E6D7E1AE4887000CA6AA1 /* LaunchScreen.xib */,
+				FC8E6D731AE4887000CA6AA1 /* Supporting Files */,
+			);
+			path = EdisonRCCar;
+			sourceTree = "<group>";
+		};
+		FC8E6D731AE4887000CA6AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D741AE4887000CA6AA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC8E6D881AE4887000CA6AA1 /* EdisonRCCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D8B1AE4887000CA6AA1 /* EdisonRCCarTests.swift */,
+				FC8E6D891AE4887000CA6AA1 /* Supporting Files */,
+			);
+			path = EdisonRCCarTests;
+			sourceTree = "<group>";
+		};
+		FC8E6D891AE4887000CA6AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E6D8A1AE4887000CA6AA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8E6D6F1AE4887000CA6AA1 /* EdisonRCCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8E6D8F1AE4887000CA6AA1 /* Build configuration list for PBXNativeTarget "EdisonRCCar" */;
+			buildPhases = (
+				FC8E6D6C1AE4887000CA6AA1 /* Sources */,
+				FC8E6D6D1AE4887000CA6AA1 /* Frameworks */,
+				FC8E6D6E1AE4887000CA6AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdisonRCCar;
+			productName = EdisonRCCar;
+			productReference = FC8E6D701AE4887000CA6AA1 /* EdisonRCCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8E6D841AE4887000CA6AA1 /* EdisonRCCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8E6D921AE4887000CA6AA1 /* Build configuration list for PBXNativeTarget "EdisonRCCarTests" */;
+			buildPhases = (
+				FC8E6D811AE4887000CA6AA1 /* Sources */,
+				FC8E6D821AE4887000CA6AA1 /* Frameworks */,
+				FC8E6D831AE4887000CA6AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8E6D871AE4887000CA6AA1 /* PBXTargetDependency */,
+			);
+			name = EdisonRCCarTests;
+			productName = EdisonRCCarTests;
+			productReference = FC8E6D851AE4887000CA6AA1 /* EdisonRCCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8E6D681AE4887000CA6AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Fanzone, LLC";
+				TargetAttributes = {
+					FC8E6D6F1AE4887000CA6AA1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FC8E6D841AE4887000CA6AA1 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FC8E6D6F1AE4887000CA6AA1;
+					};
+				};
+			};
+			buildConfigurationList = FC8E6D6B1AE4887000CA6AA1 /* Build configuration list for PBXProject "EdisonRCCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8E6D671AE4887000CA6AA1;
+			productRefGroup = FC8E6D711AE4887000CA6AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8E6D6F1AE4887000CA6AA1 /* EdisonRCCar */,
+				FC8E6D841AE4887000CA6AA1 /* EdisonRCCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8E6D6E1AE4887000CA6AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E6D7B1AE4887000CA6AA1 /* Main.storyboard in Resources */,
+				FC8E6D801AE4887000CA6AA1 /* LaunchScreen.xib in Resources */,
+				FC8E6D7D1AE4887000CA6AA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8E6D831AE4887000CA6AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8E6D6C1AE4887000CA6AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E6D781AE4887000CA6AA1 /* ViewController.swift in Sources */,
+				FC8E6D761AE4887000CA6AA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8E6D811AE4887000CA6AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E6D8C1AE4887000CA6AA1 /* EdisonRCCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8E6D871AE4887000CA6AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8E6D6F1AE4887000CA6AA1 /* EdisonRCCar */;
+			targetProxy = FC8E6D861AE4887000CA6AA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC8E6D791AE4887000CA6AA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8E6D7A1AE4887000CA6AA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8E6D7E1AE4887000CA6AA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8E6D7F1AE4887000CA6AA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8E6D8D1AE4887000CA6AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8E6D8E1AE4887000CA6AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8E6D901AE4887000CA6AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EdisonRCCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC8E6D911AE4887000CA6AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EdisonRCCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC8E6D931AE4887000CA6AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EdisonRCCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdisonRCCar.app/EdisonRCCar";
+			};
+			name = Debug;
+		};
+		FC8E6D941AE4887000CA6AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EdisonRCCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdisonRCCar.app/EdisonRCCar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8E6D6B1AE4887000CA6AA1 /* Build configuration list for PBXProject "EdisonRCCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8E6D8D1AE4887000CA6AA1 /* Debug */,
+				FC8E6D8E1AE4887000CA6AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8E6D8F1AE4887000CA6AA1 /* Build configuration list for PBXNativeTarget "EdisonRCCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8E6D901AE4887000CA6AA1 /* Debug */,
+				FC8E6D911AE4887000CA6AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC8E6D921AE4887000CA6AA1 /* Build configuration list for PBXNativeTarget "EdisonRCCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8E6D931AE4887000CA6AA1 /* Debug */,
+				FC8E6D941AE4887000CA6AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8E6D681AE4887000CA6AA1 /* Project object */;
+}

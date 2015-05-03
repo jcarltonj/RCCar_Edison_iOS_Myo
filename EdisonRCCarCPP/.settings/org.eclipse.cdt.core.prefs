@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.intel.iotdevkit.ide.config.gnu.cross.exe.debug.517634433/POKY_HOME/delimiter=\:
+environment/project/com.intel.iotdevkit.ide.config.gnu.cross.exe.debug.517634433/POKY_HOME/operation=replace
+environment/project/com.intel.iotdevkit.ide.config.gnu.cross.exe.debug.517634433/POKY_HOME/value=/Applications/iotdk-ide-mac/devkit-x86/sysroots/i586-poky-linux
+environment/project/com.intel.iotdevkit.ide.config.gnu.cross.exe.debug.517634433/append=true
+environment/project/com.intel.iotdevkit.ide.config.gnu.cross.exe.debug.517634433/appendContributed=true
